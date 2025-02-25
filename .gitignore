@@ -23,7 +23,7 @@ buildNumber.properties
 
 # Ignore Allure results
 /reports/
-! /reports/allure-report/index.html
+!/reports/allure-report/index.html
 
 # Ignore IDE-specific files
 .idea/
