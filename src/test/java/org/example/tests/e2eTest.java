@@ -15,7 +15,7 @@ public class e2eTest extends BaseTest {
 
         InventoryPage inventoryPage = new InventoryPage(page);
         inventoryPage.addItemToCart("Sauce Labs Backpack");
-        inventoryPage.goToCart();
+        inventoryPage.goToCart();//
         CartPage cartPage = new CartPage(page);
         cartPage.clickCheckout();
 
