@@ -55,29 +55,6 @@ Before running the tests, ensure you have the following installed:
    ```sh
    mvn allure:report
    ```
-
-## Running Tests with GitHub Actions
-
-<<<<<<< HEAD
-This project includes a CI/CD pipeline using GitHub Actions. The workflow is defined in `.github/workflows/maven.yml`. It includes:
-=======
-This project includes a CI/CD pipeline using GitHub Actions. The workflow is defined in `.github/workflows/ci.yml`. It includes:
->>>>>>> d34343051e4e2d950a5b325b9405ae0fa66730d4
-
-- Installing dependencies
-- Running Playwright tests
-- Generating Allure reports
-
-### To Enable GitHub Actions:
-
-1. Push the repository to GitHub.
-<<<<<<< HEAD
-2. Ensure the `.github/workflows/maven.yml` file exists.
-=======
-2. Ensure the `.github/workflows/ci.yml` file exists.
->>>>>>> d34343051e4e2d950a5b325b9405ae0fa66730d4
-3. GitHub Actions will automatically trigger on every push or pull request.
-
 ## Author
 
 [Abolfazl Heidari](https://github.com/neotee314)
